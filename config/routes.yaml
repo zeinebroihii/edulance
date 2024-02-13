@@ -1,0 +1,17 @@
+index:
+    path: /
+    controller: App\Controller\IndexController::index
+
+login:
+    path: /login
+    controller: App\Controller\LoginController::login
+
+signup:
+    path: /signup
+    controller: App\Controller\SignUpController::signup
+back:
+    path: /back
+    controller: App\Controller\BackController::back
+homepageuser:
+    path: /back
+    controller: App\Controller\HomePageUserController::homepageuser

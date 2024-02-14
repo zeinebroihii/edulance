@@ -9,27 +9,31 @@
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Jobz-index2</title>
+<title>Jobz</title>
 
-<script src="js/4n2NXumNjtg5LPp6VXLlDicTUfA.js"></script><link rel="apple-touch-icon" href="images/apple-touch-icon.html">
-<link rel="shortcut icon" type="image/ico" href="images/favicon.html" />
-
-<link rel="stylesheet" href="css/bootstrap.min.css">
-
-<link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-
-<link href="css/matrialize.css" rel="stylesheet">
-
-<link href="owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-
-<link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css">
-
-<link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+
+{% block stylesheets %}
+<link rel="apple-touch-icon" href="HomePageUser/images/apple-touch-icon.html">
+
+<link rel="shortcut icon" type="image/ico" href="HomePageUser/images/favicon.html" />
+
+<link rel="stylesheet" href="HomePageUser/css/bootstrap.min.css">
+
+<link href="HomePageUser/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+<link href="HomePageUser/css/matrialize.css" rel="stylesheet">
+
+<link href="HomePageUser/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="HomePageUser/css/jquery-ui.min.css">
+
+<link rel="stylesheet" href="HomePageUser/css/style.css">
+{% endblock %}
+
+{% block body %}
 
 <header class="header">
-
 <div class="header_container background-color-orange-light">
 <div class="container">
 <div class="row">
@@ -37,7 +41,7 @@
 <div class="header_content d-flex flex-row align-items-center justify-content-start">
 <div class="logo_container">
 <a href="#">
-<img src="imags/logo.png" class="logo-text" alt="">
+<img src="HomePageUserimags/logo.png" class="logo-text" alt="">
 </a>
 </div>
 <nav class="main_nav_contaner ml-auto">
@@ -46,23 +50,23 @@
 <a class="dropdown-toggle" data-toggle="dropdown" href="#">Home
 <span class="caret"></span></a>
 <ul class="dropdown-menu">
-<li><a href="index.html">Home variation 1</a></li>
-<li><a href="index2.html">Home variation 2</a></li>
+<li><a href="HomePageUser/index2.html">Home variation 2</a></li>
 </ul>
 </li>
 <li class="dropdown ">
 <a class="dropdown-toggle" data-toggle="dropdown" href="#">Job
 <span class="caret"></span></a>
 <ul class="dropdown-menu">
-<li><a href="job_category.html">Job List</a></li>
-<li><a href="job_detail.html">Job Detail</a></li>
+<li><a href="HomePageUser/job_category.html">Job List</a></li>
+<li><a href="HomePageUser/job_detail.html">Job Detail</a></li>
 </ul>
 </li>
-<li><a href="blog_page.html"> Blog </a></li>
-<li><a href="contact.html">Contact</a></li>
+<li><a href="HomePageUser/blog_page.html"> Blog </a></li>
+<li><a href="HomePageUser/about_us.html">About</a></li>
+<li><a href="HomePageUser/contact.html">Contact</a></li>
 </ul>
 <div class=" Post-Jobs">
-<a href="post_job.html" class="">
+<a href="HomePageUser/post_job.html" class="">
 Post Jobs
 </a>
 </div>
@@ -97,20 +101,20 @@ Post Jobs
 <a class="dropdown-toggle" data-toggle="dropdown" href="#">Home
 <span class="caret"></span></a>
 <ul class="dropdown-menu">
-<li><a href="index.html">Home 1</a></li>
-<li><a href="index2.html">Home 2</a></li>
+<li><a href="HomePageUser/index2.html">Home 2</a></li>
 </ul>
 </li>
 <li class="dropdown menu_mm">
 <a class="dropdown-toggle" data-toggle="dropdown" href="#">Job
 <span class="caret"></span></a>
 <ul class="dropdown-menu">
-<li><a href="job_category.html">Job List</a></li>
-<li><a href="job_detail.html">Job Detail</a></li>
+<li><a href="HomePageUser/job_category.html">Job List</a></li>
+<li><a href="HomePageUser/job_detail.html">Job Detail</a></li>
 </ul>
 </li>
-<li class="menu_mm"><a href="blog_page.html">Blog</a></li>
-<li class="menu_mm"><a href="contact.html">Contact</a></li>
+<li class="menu_mm"><a href="HomePageUser/blog_page.html">Blog</a></li>
+<li class="menu_mm"><a href="HomePageUser/about_us.html">About</a></li>
+<li class="menu_mm"><a href="HomePageUser/contact.html">Contact</a></li>
 </ul>
 </nav>
 </div>
@@ -119,11 +123,11 @@ Post Jobs
 
 <section id="intro">
 <div class="carousel-item active">
-<div class="carousel-background"><img src="imags/slider/slider1.jpg" alt=""></div>
+<div class="carousel-background"><img src="HomePageUser/imags/slider/slider1.jpg" alt=""></div>
 <div class="carousel-container">
 <div class="carousel-content">
 <h2 class="font-color-white">Find Jobs Now more Easy Way</h2>
-<p class="font-color-white">Lorem ipsum tempus amet conubia adipiscing fermentum viverra gravida, mollis suspendisse pretium dictumst inceptos mattis euismod lorem nulla, magna duis nostra sodales luctus nulla praesent fermentum a elit mollis purus aenean curabitur eleifend </p>
+<p class="font-color-white"> lorem nulla, magna duis nostra sodales luctus nulla praesent fermentum a elit mollis purus aenean curabitur eleifend </p>
 <a href="#" data-toggle="modal" data-target="#myModal"><i class=" material-icons play">play_arrow</i></a>
 </div>
 </div>
@@ -155,14 +159,14 @@ Post Jobs
 <div class="container">
 <h3 class="text-center">Choose Job Category</h3>
 <div class="vertical-space-30"></div>
-<p class="max-width">Lorem ipsum tempus amet conubia adipiscing fermentum viverra gravida, mollis suspendisse pretium dictumst inceptos mattis euismod
+<p class="max-width">
 </p>
 <div class="vertical-space-60"> </div>
 <div class="row">
 <div class="col-lg-3 col-md-6 max-width-50">
 <div class="box background-color-white-light">
 <div class="circle">
-<img src="imags/icone/service-icone-1.png" alt="">
+<img src="HomePageUser/imags/icone/service-icone-1.png" alt="">
 </div>
 <h6 class="font-color-black">Education & Training</h6>
 <a href="#" class="button job_post" data-hover="View Jobs" data-active="I'M ACTIVE"><span>36 Job Posts</span></a>
@@ -171,7 +175,7 @@ Post Jobs
 <div class="col-lg-3 col-md-6 max-width-50">
 <div class="box background-color-white-light">
 <div class="circle">
-<img src="imags/icone/service-icone-2.png" alt="">
+<img src="HomePageUser/imags/icone/service-icone-2.png" alt="">
 </div>
 <h6 class="font-color-black">Sales and Marketing</h6>
 <a href="#" class="button job_post" data-hover="View Jobs" data-active="I'M ACTIVE"><span>72 Job Posts</span></a>
@@ -180,7 +184,7 @@ Post Jobs
 <div class="col-lg-3 col-md-6 max-width-50">
 <div class="box background-color-white-light">
 <div class="circle">
-<img src="imags/icone/service-icone-3.png" alt="">
+<img src="HomePageUser/imags/icone/service-icone-3.png" alt="">
 </div>
 <h6 class="font-color-black">Computer Programing</h6>
 <a href="#" class="button job_post" data-hover="View Jobs" data-active="I'M ACTIVE"><span>42 Job Posts</span></a>
@@ -189,7 +193,7 @@ Post Jobs
 <div class="col-lg-3 col-md-6 max-width-50">
 <div class="box background-color-white-light">
 <div class="circle">
-<img src="imags/icone/service-icone-4.png" alt="">
+<img src="HomePageUser/imags/icone/service-icone-4.png" alt="">
 </div>
 <h6 class="font-color-black">Customer Support</h6>
 <a href="#" class="button job_post" data-hover="View Jobs" data-active="I'M ACTIVE"><span>18 Job Posts</span></a>
@@ -198,7 +202,7 @@ Post Jobs
 <div class="col-lg-3 col-md-6 max-width-50">
 <div class="box background-color-white-light">
 <div class="circle">
-<img src="imags/icone/service-icone-5.png" alt="">
+<img src="HomePageUser/imags/icone/service-icone-5.png" alt="">
 </div>
 <h6 class="font-color-black">Design & Multimedia</h6>
 <a href="#" class="button job_post" data-hover="View Jobs" data-active="I'M ACTIVE"><span>48 Job Posts</span></a>
@@ -207,7 +211,7 @@ Post Jobs
 <div class="col-lg-3 col-md-6 max-width-50">
 <div class="box background-color-white-light">
 <div class="circle">
-<img src="imags/icone/service-icone-6.png" alt="">
+<img src="HomePageUser/imags/icone/service-icone-6.png" alt="">
 </div>
 <h6 class="font-color-black">Web Development</h6>
 <a href="#" class="button job_post" data-hover="View Jobs" data-active="I'M ACTIVE"><span>94 Job Posts</span></a>
@@ -216,7 +220,7 @@ Post Jobs
 <div class="col-lg-3 col-md-6 max-width-50 margin-left-18">
 <div class="box background-color-white-light">
 <div class="circle">
-<img src="imags/icone/service-icone-7.png" alt="">
+<img src="HomePageUser/imags/icone/service-icone-7.png" alt="">
 </div>
 <h6 class="font-color-black">Medical/Pharma</h6>
 <a href="#" class="button job_post" data-hover="View Jobs" data-active="I'M ACTIVE"><span>64 Job Posts</span></a>
@@ -225,7 +229,7 @@ Post Jobs
 <div class="col-lg-3 col-md-6 max-width-50">
 <div class="box background-color-white-light ">
 <div class="circle">
-<img src="imags/icone/service-icone-8.png" alt="">
+<img src="HomePageUser/imags/icone/service-icone-8.png" alt="">
 </div>
 <h6 class="font-color-black">Engineer/Architects</h6>
 <a class="button job_post" data-hover="View Jobs" data-active="I'M ACTIVE"><span>52 Job Posts</span></a>
@@ -246,15 +250,14 @@ Post Jobs
 <div class="col-lg-9 col-md-12 ">
 <h3 class="title-jobted title font-color-white">Why Choose Jobtend</h3>
 <div class="vertical-space-20"></div>
-<p class="max-width font-color-white">Tristique velit phasellus sed auctor leo eros luctus nibh fermentum, ad imperdiet rhoncus dolorhabitant purus velit aliquet donecurna ut in turpis
+<p class="max-width font-color-white">Why Choose Us: Quality Content: Our platform offers top-quality content carefully curated to meet the needs of our subscribers. Exceptional User Experience: We strive to make your experience on EduLance as seamless and enjoyable as possible, offering you a user-friendly interface and intuitive features. Commitment to Excellence: We are dedicated to providing exceptional customer service and continuously improving our platform to meet the evolving needs of our users.    
 </p>
 <div class="vertical-space-40"></div>
 <ul class="max-width font-color-white">
-<li class="list-item1 ">Tristique velit phasellus sed auctor leo eros luctus nibh fermentum, ad imperdiet rhoncus dolorhabitant purus velit aliquet donecurna ut in turpis
+<li class="list-item1 ">Quality Content
 </li>
-<li class="list-item1 ">Rivastic stique velit phasellus sed auctor leo eros luctus nibh fermentum, ad imperdiet rhoncus dolorhabitant purus </li>
-<li class="list-item1 ">Lovistiq pue velit phasellus sed auctor leo eros luctus nibh fermentum, ad imperdiet rhoncus dolorhabitant purus velit aliquet dolorhabitant purus velit aliquet donecurna ut in turpis donecurna ut in turpis</li>
-<li class="list-item1 ">Tristique velit phasellus sed auctor leo eros luctus nibh fermentum, ad imperdiet rhoncus dolorhabitant purus velit aliquet donecurna ut in turpis</li>
+<li class="list-item1 ">Exceptional User Experience</li>
+<li class="list-item1 ">Commitment to Excellence</li>
 </ul>
 </div>
 <div class="col-lg-3 col-md-12 align-self-center">
@@ -274,12 +277,12 @@ Post Jobs
 <div class="container text-center">
 <h3 class="text-center">Recent Job Post</h3>
 <div class="vertical-space-30"></div>
-<p class="max-width">Lorem ipsum tempus amet conubia adipiscing fermentum viverra gravida, mollis suspendisse pretium dictumst inceptos mattis euismod
+<p class="max-width">
 </p>
 <div class="vertical-space-60"></div>
 <div class="detail">
 <div class="media display-inline text-align-center">
-<img src="imags/job-post-icone-1.png" alt="John Doe" class="mr-3 ">
+<img src="HomePageUser/imags/job-post-icone-1.png" alt="John Doe" class="mr-3 ">
 <div class="media-body text-left  text-align-center">
 <h6> <a href="#" class="font-color-black">Jopitar looking for a senior UX Designer</a></h6>
 <i class="large material-icons">account_balance</i>
@@ -296,7 +299,7 @@ Post Jobs
 </div>
 <div class="detail">
 <div class="media display-inline text-align-center">
-<img src="imags/job-post-icone-2.png" alt="John Doe" class="mr-3 ">
+<img src="HomePageUser/imags/job-post-icone-2.png" alt="John Doe" class="mr-3 ">
 <div class="media-body text-left text-align-center">
 <h6><a href="#" class="font-color-black">Rokital needs Marketing Experts</a></h6>
 <i class="large material-icons">account_balance</i>
@@ -313,7 +316,7 @@ Post Jobs
 </div>
 <div class="detail">
 <div class="media display-inline text-align-center">
-<img src="imags/job-post-icone-3.png" alt="John Doe" class="mr-3 ">
+<img src="HomePageUser/imags/job-post-icone-3.png" alt="John Doe" class="mr-3 ">
 <div class="media-body text-left text-align-center">
 <h6><a href="#" class="font-color-black">Mshape looking for a senior UX Designer</a></h6>
 <i class="large material-icons">account_balance</i>
@@ -330,7 +333,7 @@ Post Jobs
 </div>
 <div class="detail">
 <div class="media display-inline text-align-center">
-<img src="imags/job-post-icone-4.png" alt="John Doe" class="mr-3 ">
+<img src="HomePageUser/imags/job-post-icone-4.png" alt="John Doe" class="mr-3 ">
 <div class="media-body text-left text-align-center">
 <h6><a href="#" class="font-color-black">Marketing Directer needed</a></h6>
 <i class="large material-icons">account_balance</i>
@@ -347,7 +350,7 @@ Post Jobs
 </div>
 <div class="detail">
 <div class="media display-inline text-align-center">
-<img src="imags/job-post-icone-5.png" alt="John Doe" class="mr-3 ">
+<img src="HomePageUser/imags/job-post-icone-5.png" alt="John Doe" class="mr-3 ">
 <div class="media-body text-left text-align-center">
 <h6><a href="#" class="font-color-black">We need a senior Brand Designer</a></h6>
 <i class="large material-icons">account_balance</i>
@@ -386,14 +389,14 @@ Post Jobs
 <div class="container text-center">
 <h3 class="text-center">Featuread Company</h3>
 <div class="vertical-space-30"></div>
-<p class="max-width">Lorem ipsum tempus amet conubia adipiscing fermentum viverra gravida, mollis suspendisse pretium dictumst inceptos mattis euismod
+<p class="max-width">
 </p>
 <div class="row">
 <div class="col-xs-12 col-sm-12 col-md-12">
 <div class="owl-carousel Featuread-Company-carousel">
 <a href="#" class="Featuread-Company-item">
 <div class="media text-align-center  media1">
-<img src="imags/job-post-icone-3.png" alt="John Doe" class=" Featuread-Company-img margin-auto">
+<img src="HomePageUser/imags/job-post-icone-3.png" alt="John Doe" class=" Featuread-Company-img margin-auto">
 <div class="media-body text-left text-align-center ">
 <h6>Mshape Themes Limited.</h6>
 <i class="material-icons">account_balance</i>
@@ -409,7 +412,7 @@ Post Jobs
 </a>
 <a href="#" class="Featuread-Company-item">
 <div class="media  text-align-center  media1">
-<img src="imags/job-post-icone-4.png" alt="John Doe" class="margin-auto Featuread-Company-img">
+<img src="HomePageUser/imags/job-post-icone-4.png" alt="John Doe" class="margin-auto Featuread-Company-img">
 <div class="media-body text-left text-align-center">
 <h6>Scalegoss Limited.</h6>
 <i class="material-icons">account_balance</i>
@@ -425,7 +428,7 @@ Post Jobs
 </a>
 <a href="#" class="Featuread-Company-item">
 <div class="media text-align-center   media1">
-<img src="imags/job-post-icone-1.png" alt="John Doe" class=" Featuread-Company-img margin-auto">
+<img src="HomePageUser/imags/job-post-icone-1.png" alt="John Doe" class=" Featuread-Company-img margin-auto">
 <div class="media-body text-left text-align-center">
 <h6>Jopitar Themes Limited.</h6>
 <i class="material-icons">account_balance</i>
@@ -441,7 +444,7 @@ Post Jobs
 </a>
 <a href="#" class="Featuread-Company-item">
 <div class="media   text-align-center media1">
-<img src="imags/job-post-icone-5.png" alt="John Doe" class=" Featuread-Company-img margin-auto">
+<img src="HomePageUser/imags/job-post-icone-5.png" alt="John Doe" class=" Featuread-Company-img margin-auto">
 <div class="media-body text-left text-align-center">
 <h6>Supwin Themes Limited.</h6>
 <i class="material-icons">account_balance</i>
@@ -457,7 +460,7 @@ Post Jobs
 </a>
 <a href="#" class="Featuread-Company-item">
 <div class="media text-align-center   media1">
-<img src="imags/job-post-icone-3.png" alt="John Doe" class=" Featuread-Company-img margin-auto">
+<img src="HomePageUser/imags/job-post-icone-3.png" alt="John Doe" class=" Featuread-Company-img margin-auto">
 <div class="media-body text-left text-align-center">
 <h6>Mshape Themes Limited.</h6>
 <i class="material-icons">account_balance</i>
@@ -473,7 +476,7 @@ Post Jobs
 </a>
 <a href="#" class="Featuread-Company-item">
 <div class="media  text-align-center  media1">
-<img src="imags/job-post-icone-4.png" alt="John Doe" class=" Featuread-Company-img margin-auto">
+<img src="HomePageUser/imags/job-post-icone-4.png" alt="John Doe" class=" Featuread-Company-img margin-auto">
 <div class="media-body text-left text-align-center">
 <h6>Scalegoss Themes Limited.</h6>
 <i class="material-icons">account_balance</i>
@@ -489,7 +492,7 @@ Post Jobs
 </a>
 <a href="#" class="Featuread-Company-item">
 <div class="media  text-align-center  media1">
-<img src="imags/job-post-icone-3.png" alt="John Doe" class=" Featuread-Company-img margin-auto">
+<img src="HomePageUser/imags/job-post-icone-3.png" alt="John Doe" class=" Featuread-Company-img margin-auto">
 <div class="media-body text-left text-align-center">
 <h6>Mshape Themes Limited.</h6>
 <i class="material-icons">account_balance</i>
@@ -505,7 +508,7 @@ Post Jobs
 </a>
 <a href="#" class="Featuread-Company-item">
 <div class="media  text-align-center  media1">
-<img src="imags/job-post-icone-4.png" alt="John Doe" class=" Featuread-Company-img margin-auto">
+<img src="HomePageUser/imags/job-post-icone-4.png" alt="John Doe" class=" Featuread-Company-img margin-auto">
 <div class="media-body text-left text-align-center">
 <h6>Scalegoss Themes Limited.</h6>
 <i class="material-icons">account_balance</i>
@@ -521,7 +524,7 @@ Post Jobs
 </a>
 <a href="#" class="Featuread-Company-item">
 <div class="media  text-align-center  media1">
-<img src="imags/job-post-icone-1.png" alt="John Doe" class=" Featuread-Company-img margin-auto">
+<img src="HomePageUser/imags/job-post-icone-1.png" alt="John Doe" class=" Featuread-Company-img margin-auto">
 <div class="media-body text-left text-align-center">
 <h6>Jopitar Themes Limited.</h6>
 <i class="material-icons">account_balance</i>
@@ -537,7 +540,7 @@ Post Jobs
 </a>
 <a href="#" class="Featuread-Company-item">
 <div class="media  text-align-center  media1">
-<img src="imags/job-post-icone-5.png" alt="John Doe" class=" Featuread-Company-img margin-auto">
+<img src="HomePageUser/imags/job-post-icone-5.png" alt="John Doe" class=" Featuread-Company-img margin-auto">
 <div class="media-body text-left text-align-center">
 <h6>Supwin Themes Limited.</h6>
 <i class="material-icons">account_balance</i>
@@ -553,7 +556,7 @@ Post Jobs
 </a>
 <a href="#" class="Featuread-Company-item">
 <div class="media  text-align-center  media1">
-<img src="imags/job-post-icone-3.png" alt="John Doe" class=" Featuread-Company-img margin-auto">
+<img src="HomePageUser/imags/job-post-icone-3.png" alt="John Doe" class=" Featuread-Company-img margin-auto">
 <div class="media-body text-left text-align-center">
 <h6>Mshape Themes Limited.</h6>
 <i class="material-icons">account_balance</i>
@@ -580,14 +583,14 @@ Post Jobs
 <div class="container">
 <h3 class="text-center">Trusted by Experts</h3>
 <div class="vertical-space-30"></div>
-<p class="max-width">Lorem ipsum tempus amet conubia adipiscing fermentum viverra gravida, mollis suspendisse pretium dictumst inceptos mattis euismod
+<p class="max-width">
 </p>
 <div class="col-xs-12 col-sm-12 col-md-12">
 <div class="owl-carousel Trusted-by-Experts-carousel">
 <div class="Trusted-by-Experts-item">
 <div class="testimonial">
 <div class="pic">
-<img src="imags/Clients-Testimonial1.jpg" alt="">
+<img src="HomePageUser/imags/Clients-Testimonial1.jpg" alt="">
 </div>
 <h4 class="title">Farhana Istifa</h4>
 <blockquote>
@@ -600,7 +603,7 @@ Ye on properly handsome returned throwing am no whatever. In without wishing he 
 <div class="Trusted-by-Experts-item">
 <div class="testimonial">
 <div class="pic">
-<img src="imags/Clients-Testimonial2.jpg" alt="">
+<img src="HomePageUser/imags/Clients-Testimonial2.jpg" alt="">
 </div>
 <h4 class="title">Farhana Islam</h4>
 <blockquote>
@@ -613,7 +616,7 @@ Ye on properly handsome returned throwing am no whatever. In without wishing he 
 <div class="Trusted-by-Experts-item">
 <div class="testimonial">
 <div class="pic">
-<img src="imags/Clients-Testimonial3.jpg" alt="">
+<img src="HomePageUser/imags/Clients-Testimonial3.jpg" alt="">
 </div>
 <h4 class="title">Farhana Istifa</h4>
 <blockquote>
@@ -645,21 +648,13 @@ Ye on properly handsome returned throwing am no whatever. In without wishing he 
 <i class="fa fa-pinterest-p social-icon pinterest-p"></i></a>
 <a href="#">
 <i class="fa fa-map-marker social-icon map-marker"></i></a>
-</div>
-<div class="col-lg-2 col-md-6 vertical-space-2">
-<h5>Company</h5>
-<div class="text">
-<a href="#">Support</a>
-<a href="#">Tems</a>
-<a href="#">Privacy</a>
-</div>
-</div>
+</div>  
 <div class="col-lg-2 col-md-6 vertical-space-2">
 <h5>Supports</h5>
 <div class="text">
+<a href="#">About</a>
 <a href="#">Support</a>
-<a href="#">Tems</a>
-<a href="#">Privacy</a>
+
 </div>
 </div>
 <div class="col-lg-4 col-md-6 vertical-space-2">
@@ -675,12 +670,6 @@ Ye on properly handsome returned throwing am no whatever. In without wishing he 
 </div>
 <div class="vertical-space-60"></div>
 </div>
-<div class="container-fluid background-color-orange main-footer">
-<div class="container text-center">
-<div class="vertical-space-30"></div>
-<p><a href="https://www.templatespoint.net">TemplatesPoint</a></p>
-</div>
-</div>
 </footer>
 
 
@@ -693,7 +682,7 @@ Ye on properly handsome returned throwing am no whatever. In without wishing he 
 <div class="modal-body">
 <button class="button button-rounded  close" data-dismiss="modal">&times;</button>
 <video class="" controls>
-<source src="video/Pexels_Videos_2706.mp4" type="video/mp4">
+<source src="HomePageUser/video/Pexels_Videos_2706.mp4" type="video/mp4">
 </video>
 </div>
 </div>
@@ -702,12 +691,17 @@ Ye on properly handsome returned throwing am no whatever. In without wishing he 
 </div>
 
 
-<script src="js/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="owlcarousel/owl.carousel.min.js"></script>
-<script src="js/jquery-ui.min.js"></script>
-
-<script src="js/custom.js"></script>
 </body>
 
 </html>
+{% endblock %}
+{% block javascripts %}
+
+<script src="HomePageUser/js/jquery.min.js"></script>
+<script src="HomePageUser/js/bootstrap.min.js"></script>
+<script src="HomePageUser/owlcarousel/owl.carousel.min.js"></script>
+<script src="HomePageUser/js/jquery-ui.min.js"></script>
+<script src="HomePageUser/js/4n2NXumNjtg5LPp6VXLlDicTUfA.js"></script>
+
+<script src="HomePageUser/js/custom.js"></script>
+{% endblock %}

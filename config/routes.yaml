@@ -13,5 +13,5 @@ back:
     path: /back
     controller: App\Controller\BackController::back
 homepageuser:
-    path: /back
+    path: /homepageuser
     controller: App\Controller\HomePageUserController::homepageuser
